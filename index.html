@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main_page">
+    <div class="box_signup">
+        <div class="welcome">
+            <p>Welcamo back</p>
+            <i class="fa-solid fa-hands-clapping" style="color: #ffcc44;"></i>
+        </div>
+        <h1>Sign up to your account</h1>
+       <form id="signup">
+           <lable for="name">Your name</lable>
+           <br>
+           <input type="text" id="name" placeholder="" required>
+<br>
+           <lable for="mail">Your email</lable>
+           <br>
+           <input type="email" id="mail" placeholder="" required>
+           <br>
+
+           <lable for="pass">Password</lable>
+           <br>
+           <input type="password" id="pass" placeholder="" required>
+           <br>
+           <lable for="confirm_pass">Confirm Password</lable>
+           <br>
+           <input type="password" id="confirm_pass" placeholder="" required>
+           <br>
+           <a href="http://127.0.0.1:5500/profile.html" target="_blank">
+               <button class="btn" type="submit">Continue</button>
+            </a>
+    </form>
+    <h2>Error: All fields are mandatory!</h2>
+</div>
+<p id="msg">Don’t have an account?<span> Sign up</span></p>
+</div>
+    <script src="./script.js"></script>
+</body>
+</html>
